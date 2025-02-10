@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center px-4 h-16 bg-primary/40 text-foreground">
-      <span className="font-bold text-xl">NoPass</span>
+      <span className="font-bold text-xl">Secure Pass</span>
       <div className="flex gap-5 items-center justify-center">
         <Button variant="outline" size="icon" onClick={toggleTheme}>
           <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
